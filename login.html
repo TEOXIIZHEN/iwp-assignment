@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-- ACE Hats Shop--</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.jpg" class="logo" alt="" height="100px"></a>
+        <div>
+            <ul id="header1">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <button class="login"><a href="login.html" class="login-but">Login/Sign Up</a></button>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="openSidebar" class="fas fa-bars"></i>
+            <!-- Add the icon for the shopping cart -->
+            <i id="openShoppingCart" class="fas fa-shopping-cart"></i>
+        </div>
+    </section>
+
+    <section id="page-login">
+        <div class="wrapper">
+            <span class="icon-close"><i class="fas fa-close"></i></span>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <div class="input-box">
+                        <span class="icon"><i class="fas fa-envelope" name="mail"></i></span>
+                        <input type="email" id="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="fas fa-lock" name="password"></i></span>
+                        <input type="password" id="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Remember me</label>
+                        <br><a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="button">Login</button>
+                    <div class="login-register">
+                        <p> Don't have an account? <a href="#" class="register-link">Register</a></p>
+                    </div>
+                    <div class="login-register">
+                        <p> Admin? <a href="admin-login.html" class="admin-link">Login here</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><i class="fas fa-user" name="user"></i></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="fas fa-envelope"></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="fas fa-lock"></i></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> I agree to the terms & conditions</label>
+                    </div>
+                    <button type="submit" class="button">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section-p1" style="background-color:azure;">
+        <div class="col">
+            <img class="logo" src="img/logo.jpg" alt="">
+            <h4>Contact Us</h4>
+            <p><strong>Address: </strong> 64 Jlan Bakawali 24 Taman Johor Jaya</p>
+            <p><strong>Phone: </strong> 010-7762966</p>
+            <p><strong>Hours: </strong> 12:00-15:00</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/logo.jpg" alt="">
+                <img src="img/logo.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/logo.jpg" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2021, Tech2 etc - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
